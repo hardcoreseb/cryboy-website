@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Signerica-Fat';
+    src:url('../custom-fonts/Signerica-Fat.ttf.woff') format('woff'),
+        url('../custom-fonts/Signerica-Fat.ttf.svg#Signerica-Fat') format('svg'),
+        url('../custom-fonts/Signerica-Fat.ttf.eot'),
+        url('../custom-fonts/Signerica-Fat.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #090c11;
+}
+
+p {
+    line-height: 1.6rem;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+h1, h2 {
+    font-family: 'Signerica-Fat';
+}
+
+h1 {
+    margin-left: 20%;
+}
+
+nav {
+    margin-right: 20%;
+    margin-left: auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 4rem;
+}
+
+.header-links {
+    text-decoration: none;
+    font-family: 'Signerica-Fat';
+}
+
+.main-img {
+    width: 100vw;
+    max-width: 100%;
+    box-shadow: 0 0 50px 10px rgb(0, 0, 0);
+}
+
+#about {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+.about-img {
+    max-height: 30rem;
+    box-shadow: 0 0 30px 5px rgb(77, 0, 0);
+}
+
+.about-text {
+    max-width: 30%;
+}
+
+.about-title {
+    margin-bottom: 2rem;
+}
+
+#channels {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #111720;
+    padding: 10rem;
+}
+
+.ytb-img {
+    max-height: 2rem;
+}
+
+.spotify-img {
+    max-height: 2rem;
+}
+
+.apple-img {
+    max-height: 2rem;
+    width: 100%;
+    filter: invert(100%);
+}
+
+.insta-link {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+}
+
+.insta-img {
+    float: left;
+    max-height: 2rem;
+}
+
+.insta-text {
+    max-height: 2rem;
+    width: 100%;
+}
+
+#impressum {
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.impressum-text {
+    max-width: 20rem;
+}
+
+.adress-title {
+    margin-bottom: 1rem;
+}
+
+.adress {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
