@@ -53,6 +53,26 @@ ul {
 .header-links {
     text-decoration: none;
     font-family: 'Signerica-Fat';
+    position: relative;
+    transform: translateZ(0);
+}
+
+.header-links:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.header-links:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .main-img {
@@ -87,6 +107,14 @@ ul {
     align-items: center;
     background-color: #111720;
     padding: 10rem;
+}
+
+#channels a {
+    transition: all .2s ease-in-out;
+}
+
+#channels a:hover {
+    transform: scale(1.2);
 }
 
 .ytb-img {
