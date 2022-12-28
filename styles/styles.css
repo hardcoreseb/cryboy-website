@@ -132,7 +132,7 @@ ul {
 
 .apple-img {
     max-height: 2rem;
-    width: 100%;
+    height: 32px;
     filter: invert(100%);
 }
 
@@ -148,8 +148,7 @@ ul {
 }
 
 .insta-text {
-    max-height: 2rem;
-    width: 100%;
+    height: 32px;
 }
 
 #impressum {
