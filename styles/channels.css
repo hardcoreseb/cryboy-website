@@ -31,24 +31,29 @@
     -webkit-transform: scale(1.2);
 }
 
-.ytb-img {
+.insta-link {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+}
+
+.icons-with-links img {
+    max-height: clamp(1rem, 0.2500rem + 3.3333vw, 2rem);
+}
+
+/* .ytb-img {
     max-height: 2rem;
 }
 
 .spotify-img {
     max-height: 2rem;
-}
+} */
 
 .apple-img {
     max-height: 2rem;
     height: 32px;
 }
 
-.insta-link {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 0.5rem;
-}
 
 .insta-img {
     float: left;

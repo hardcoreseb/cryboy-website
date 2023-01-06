@@ -10,9 +10,13 @@ body {
     background-color: #090c11;
 }
 
+h2 {
+    font-size: clamp(1rem, 0.6250rem + 1.6667vw, 1.5rem);
+}
+
 p {
     font-size: clamp(0.6rem, 0.3000rem + 1.3333vw, 1rem);
-    line-height: 1.6rem;
+    line-height: clamp(0.8rem, 0.2000rem + 2.6667vw, 1.6rem);;
 }
 
 a {
