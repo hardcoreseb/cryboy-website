@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Signerica-Fat';
+    src:url('../custom-fonts/Signerica-Fat.ttf.woff') format('woff'),
+        url('../custom-fonts/Signerica-Fat.ttf.svg#Signerica-Fat') format('svg'),
+        url('../custom-fonts/Signerica-Fat.ttf.eot'),
+        url('../custom-fonts/Signerica-Fat.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+#title {
+    font-family: 'Signerica-Fat';
+}
+
+.header-links {
+    font-family: 'Signerica-Fat';
+}
+
+h2 {
+    font-family: 'Signerica-Fat';
+}

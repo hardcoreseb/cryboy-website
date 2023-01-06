@@ -1,0 +1,61 @@
+#channels {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111720;
+    padding: 10rem 0;
+}
+
+.icons-with-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 15%;
+    flex-wrap: wrap;
+    gap: min(2rem);
+}
+
+#channels h2 {
+    margin-right: 4rem;
+    margin-left: 15%;
+}
+
+#channels a {
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+}
+
+#channels a:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+
+.ytb-img {
+    max-height: 2rem;
+}
+
+.spotify-img {
+    max-height: 2rem;
+}
+
+.apple-img {
+    max-height: 2rem;
+    height: 32px;
+}
+
+.insta-link {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+}
+
+.insta-img {
+    float: left;
+    max-height: 2rem;
+}
+
+.insta-text {
+    height: 32px;
+    filter: invert(100%);
+}

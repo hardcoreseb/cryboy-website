@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.copyright {
+    margin-left: 15%;
+}
+
+.creator {
+    margin-right: 15%;
+}

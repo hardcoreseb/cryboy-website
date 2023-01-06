@@ -1,0 +1,25 @@
+#impressum {
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    margin-left: 15%;
+}
+
+.impressum-text {
+    max-width: 20rem;
+    margin-right: 15%;
+}
+
+.adress-title {
+    margin-bottom: 1rem;
+}
+
+.adress {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

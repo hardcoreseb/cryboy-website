@@ -1,0 +1,50 @@
+h1 {
+    font-size: clamp(1rem, -0.875rem + 8.333333vw, 3rem);
+    margin-left: 15%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    gap: min(2rem);
+}
+
+nav {
+    margin-right: 15%;
+    margin-left: auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: clamp(2rem, 3vw, 4rem);
+}
+
+.header-links {
+    position: relative;
+    font-size: clamp(0.5rem, -0.2500rem + 3.3333vw, 1.5rem);
+}
+
+.header-links:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    -webkit-transform-origin: bottom right;
+    -webkit-transition: transform 0.25s ease-out;
+}
+
+.header-links:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    -webkit-transform: scaleX(1);
+    -webkit-transform-origin: bottom left;
+}
