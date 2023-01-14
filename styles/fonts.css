@@ -8,12 +8,16 @@
     font-style: normal;
 }
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #title {
     font-family: 'Signerica-Fat';
 }
 
 .header-links {
-    font-family: 'Signerica-Fat';
+    /* font-family: 'Signerica-Fat'; */
 }
 
 h2 {

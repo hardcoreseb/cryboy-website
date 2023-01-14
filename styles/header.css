@@ -30,6 +30,7 @@ ul {
 .header-links {
     position: relative;
     font-size: clamp(0.5rem, -0.2500rem + 3.3333vw, 1.5rem);
+    font-weight: bold;
 }
 
 .header-links:after {
